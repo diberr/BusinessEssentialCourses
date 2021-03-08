@@ -1,0 +1,447 @@
+:root {
+  --main: #225779;
+  --mint: #37a3a5;
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.mint {
+  color: var(--mint);
+}
+
+.navbar {
+  background: var(--main);
+}
+
+.nav-item {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+#navbarText button.btn.loginbtn {
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 15px 30px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 16px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.fontfamily {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 19px;
+  letter-spacing: -0.03em;
+  text-align: right;
+}
+
+.fontfamily i {
+  color: var(--main);
+  vertical-align: middle;
+}
+
+.roundimages {
+  position: relative;
+  /* margin-left: 30px; */
+}
+
+.imagebehind {
+  position: absolute;
+  left: -90px;
+  z-index: -1;
+}
+
+.coursecategories h2 {
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 29px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.businessesentialcourses {
+  position: relative;
+}
+
+.businessesentialcourses img {
+  position: absolute;
+  z-index: -1;
+  height: 248px;
+  width: 976px;
+  left: -399px;
+  border-radius: 0px;
+}
+
+.businessesentialcourses h2 {
+  font-family: Roboto;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.header {
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 29px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.recharge h6.card-title {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 18px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: var(--main);
+}
+
+.recharge.card-body.shadow.rounded p.card-subtitle {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 19px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+.recharge p.card-text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 18px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.btn.mt-4.registerbtn {
+  border: 1px solid #225779;
+  border-radius: 20px;
+  padding: 15px 30px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 16px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: var(--main);
+}
+
+.coursecategories {
+  background-color: var(--main);
+  color: #fff;
+}
+
+.recharge {
+  border-bottom: 3px solid var(--mint);
+}
+
+.recharge h3 {
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 20px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: var(--main);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.purple {
+  background: #bea9ec;
+  height: 20px;
+}
+
+.carousel .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: var(--main);
+}
+
+ol.carousel-indicators {
+  bottom: -50px;
+  right: 20px;
+  color: var(--main);
+  justify-content: flex-start;
+  margin: 0;
+}
+
+.allcourses .card-title {
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 23px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.allcourses .card-text {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 16px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  border-bottom: 1px solid gray;
+  padding-bottom: 15px;
+}
+.allcourses .card-subtitle {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 19px;
+  letter-spacing: -0.03em;
+  text-align: left;
+
+  color: var(--mint);
+}
+
+.allcoursesparagraph {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 16px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.allcoursesparagraph i {
+  font-size: 4px;
+  color: var(--mint);
+  vertical-align: middle;
+}
+
+.dateallcourses {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.locations h2 {
+  font-family: Roboto;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: var(--mint);
+}
+
+.locationstext p {
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 23px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.locations .purple {
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 28px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #fff;
+  height: auto;
+}
+
+.reviews {
+  border-bottom: 1px solid rgb(39, 39, 39);
+  padding-bottom: 30px;
+}
+
+.reviews h1 {
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 47px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #6a7575;
+}
+
+.teamlearning {
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 35px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.occupation {
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 23px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.subscribetonewsletter p.newsletter.h1 {
+  font-family: Roboto;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 79px;
+  letter-spacing: -0.03em;
+  text-align: left;
+
+  color: #bbb6b6;
+}
+
+.newsletterform input[type='text'],
+input[type='email'] {
+  padding: 30px;
+  background: #edeeee;
+  border-radius: 10px;
+}
+.newsletterform label {
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 22px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+#subscribebtn {
+  background-color: var(--main);
+  height: 60px;
+  padding: 10px 20px;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 29px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  margin-top: 30px;
+  vertical-align: middle;
+}
+
+@media (max-width: 601px) {
+
+  .logoimage{
+    width: 70px;
+    height: 70px;
+  }
+
+
+  .fontfamily .justify-content-md-end {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+  }
+  .businessesentialcourses img {
+    position: absolute;
+    z-index: -1;
+    height: 148px;
+    width: 476px;
+    left: -199px;
+    border-radius: 0px;
+  }
+
+ #firstsection {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .businessesentialcourses h2 {
+    font-size: 35px;
+    line-height: 36px;
+  }
+  .imagebehind {
+    position: absolute;
+    left: -20px;
+    z-index: -1;
+  }
+
+  .coursecategories h2 {
+    font-size: 20px;
+  }
+
+  .header {
+    font-size: 25px;
+    margin: 20px;
+  }
+
+  .recharge .row {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    gap: 10px;
+  }
+
+  .allcoursescards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    gap: 30px;
+  }
+
+  #cardslocation {
+    display: none;
+  }
+
+  .subscribetonewsletter p.newsletter.h1 {
+    font-size: 35px;
+    line-height: 39px;
+    color: #bbb6b6;
+  }
+}
