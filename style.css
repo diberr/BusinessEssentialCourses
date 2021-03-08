@@ -444,4 +444,16 @@ input[type='email'] {
     line-height: 39px;
     color: #bbb6b6;
   }
+
+  .reviews h1 {
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .teamlearning{
+    padding-left: 20px;
+  }
+  p.occupation{
+    padding-left: 30px;
+  }
 }
